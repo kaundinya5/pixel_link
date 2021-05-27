@@ -8,6 +8,6 @@ python test_pixel_link_on_any_image.py \
             --dataset_dir=$3 \
             --eval_image_width=1280\
             --eval_image_height=768\
-            --pixel_conf_threshold=0.5\
-            --link_conf_threshold=0.5\
+            --pixel_conf_threshold=0.9\
+            --link_conf_threshold=0.9\
             --gpu_memory_fraction=-1
